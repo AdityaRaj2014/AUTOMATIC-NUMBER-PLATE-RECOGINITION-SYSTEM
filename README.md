@@ -62,5 +62,18 @@ This project is an **Automatic Number Plate Recognition (ANPR) system** built wi
 
 ---
 
-## 📂 Project Structure
+## ⚠️ Notes
+- Place `best.pt` YOLO model in `backend/models/`
+- Place `number_plate_info.db` in `backend/`
+- Ensure backend is running before using frontend
+- `processed_images/` folder must exist
+- `node_modules/`, database, and models are **not included in the repo** due to size
+
+## 📄 License
+This project is open-source and free to use.
+
+## 🙏 Acknowledgements
+- YOLOv8 model from [Roboflow Universe](https://universe.roboflow.com/)
+- PaddleOCR library for text recognition
+
 

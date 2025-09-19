@@ -1,0 +1,30 @@
+## 💡 Notes
+
+- Place the YOLO model (`best.pt`) manually in `backend/models/`.
+- Place the SQLite database (`number_plate_info.db`) manually in `backend/`.
+- `processed_images/` folder must exist and be writable.
+- Add sensitive info (email credentials) in `.env` (do **not** push `.env`).
+
+
+# Flask and related
+Flask==2.3.3
+Flask-Cors==3.0.10
+
+# PaddleOCR and PaddlePaddle (YOLO model dependencies)
+paddleocr==2.6.0.1
+paddlepaddle==2.6.2
+
+# Image processing
+opencv-python==4.7.0.72
+Pillow==10.0.0
+numpy==1.25.0
+
+# Database
+sqlite3-binary==0.0.1  # SQLite comes with Python, this is optional
+
+# Email
+Flask-Mail==0.9.1
+
+# Other dependencies
+protobuf==3.20.3
+requests==2.31.0
