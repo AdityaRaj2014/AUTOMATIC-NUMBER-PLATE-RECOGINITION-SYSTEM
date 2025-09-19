@@ -1,5 +1,5 @@
 # AUTOMATIC-NUMBER-PLATE-RECOGINITION-SYSTEM
-INTRODUCTION
+<b>INTRODUCTION</b>
 <br>
 Automatic Number Plate Recognition (ANPR) is an advanced technology that uses image processing techniques to automatically 
 identify vehicle license plates. This technology has become 
@@ -18,7 +18,7 @@ and security infrastructures. Through this project, we aim to
 enhance operational efficiency, improve safety and security, and 
 contribute to smarter transportation systems.
 <br>
-OVERVIEW
+<b>OVERVIEW</b>
 <br>
 With the exponential growth in the number of vehicles on 
 roads globally, managing traffic, ensuring road safety, and 
