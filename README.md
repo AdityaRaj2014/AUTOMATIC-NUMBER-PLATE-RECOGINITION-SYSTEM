@@ -38,4 +38,29 @@ identification, the system can be used in applications ranging
 from traffic monitoring to security surveillance and access 
 control in gated areas.
 
+# Automatic Number Plate Recognition (ANPR) System
+
+This project is an **Automatic Number Plate Recognition (ANPR) system** built with:
+
+- **Frontend:** React.js  
+- **Backend:** Flask (Python)  
+- **Model Training:** YOLOv8 (trained on dataset from [Roboflow Universe](https://universe.roboflow.com/)) using Google Colab  
+- **OCR:** PaddleOCR for extracting license plate text  
+- **Database:** SQLite for storing and retrieving vehicle owner details  
+- **Integration:** Full-stack system where users can upload/capture car images and the system detects, recognizes, and validates number plates.
+
+---
+
+##  Features
+- Upload or capture car images to detect license plates.  
+- YOLOv8 model detects number plates with high accuracy.  
+- PaddleOCR extracts license plate text.  
+- Flask backend validates against an **SQLite database**.  
+- React frontend displays owner information (name, address, phone).  
+- Option to send challan/notification to vehicle owners.  
+- Easy deployment and modular structure.
+
+---
+
+## 📂 Project Structure
 
